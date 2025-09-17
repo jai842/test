@@ -7,7 +7,7 @@ items = []
 
 @app.route('/')
 def home():
-    return jsonify({'message': 'This is development Branch'}), 200
+    return jsonify({'message': 'Welcome to the API'}), 200
 
 @app.route('/api/items', methods=['GET'])
 def get_items():
